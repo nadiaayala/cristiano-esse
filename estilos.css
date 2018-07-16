@@ -1,0 +1,322 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(216, 206, 206, 0.5);
+}
+
+#banner{
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    height: 40vw;
+    display: flex;
+    
+}
+
+#banner-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner-texto img{
+    height: 15vw;
+    width: 20vw;
+}
+
+#banner-texto .lindo{
+    height: 15vw;
+    width: 23vw;
+}
+
+
+#embaixo-banner{
+    margin-top: 2vw;
+    justify-content: space-around;
+      
+}
+
+
+
+ .texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.bordas{
+    border: solid black 0.15vw;
+       
+}
+
+#tres-partes img{
+    height: 22vw;
+    width: 22vw;
+}
+
+.texto img{
+    align-items: flex-start;
+}
+
+h1{
+    font-size: 3vw;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Acme', sans-serif;
+    
+}
+
+h2{
+    font-size: 2vw;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Acme', sans-serif;
+}
+.parte p{
+    font-family: 'Josefin Slab', serif;
+}
+
+#tres-partes{
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-bottom: 3vw;
+    
+}
+
+#tres-partes p{
+    font-size: 1.8vw;
+}
+
+.parte{
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    font-size: 10px;
+    
+    
+}
+
+
+.estadio{
+    background-image: url(images/campo.jpg);
+    background-size: 100vw;
+    height: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+
+}
+
+.bola{
+    height: 6vw;
+    width: 6vw;
+    animation: rolar 5s linear infinite;
+    padding-bottom: 0.3vw;
+}
+
+#menu{
+    display: flex;    
+    justify-content: flex-end;
+    width: 100vw;
+    align-items: flex-end;    
+}
+
+
+#menu a{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Acme', sans-serif;
+    
+}
+#menu a:hover{
+    color: black;
+    font-size: 2.5vw;
+    
+}
+
+#piadas{
+    text-align: center;
+    margin-bottom: 4vw;
+}
+
+#piadas img{
+    width: 30vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 30vw;   
+}
+
+.piadinha{
+    width: 30vw;
+    height: 30vw;
+    margin-bottom: 5vw;
+}  
+
+#memes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 5vw;
+    margin-top: 3vw;
+}
+
+#memes img{
+    width: 40vw;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 0.15vw;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#formulario{
+    color: red;
+    font-size:  10vw;
+}
+
+sim{
+    display: flex;
+    size: 5vw;
+}
+.nao{
+    animation: sumir 5s linear infinite;
+    width: 50vw;
+    color: black;
+    font-size: 2vw;
+    
+}
+
+.parte1 {
+    position: relative;
+    left: 0;
+    top: 0;
+    
+    
+   
+  }
+  .parte1 span {
+    position: absolute;
+    opacity: 2;
+    visibility: hidden;
+    bottom: 200px;
+    width: 95.7%;
+    line-height: 45px;
+    height: 25%;
+    display: flex;
+    align-content: center;
+    background-color:rgba(61, 59, 59, 0.473);
+    color: blue;
+     font-weight: bold;
+    text-align: center;
+    left: 0;
+    top: 0;
+    margin: auto;
+    transition: all 0.4s ease;
+    font-size: 2.3vw;
+    font-family: 'Josefin Slab', serif;
+  }
+  .parte1:hover span {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+  }
+
+footer{
+    margin-top:2vw;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;   
+    
+    padding-left: 20%;
+    
+   }
+.botao{
+    background-color: rgb(149, 245, 149);
+    height: 30px;
+    border-radius:15px 15px 15px 15px;
+    border:none;
+    margin-left: 1vw;
+    width: 15.5vw;
+    
+}
+
+.input-email{
+    border-radius:15px 15px 15px 15px;
+    border:none;
+    /* height: 30px; */
+    width: 15.5vw;
+
+}
+.input-nome{
+    border-radius:15px 15px 15px 15px;
+    border:none;
+    height: 30px;
+    margin-left: 8px;
+    
+}
+
+#cadastro{
+    background-color: rgb(119, 199, 82);
+    border: solid black 0.1vw;
+    margin-right: 1vw;
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 0.4vw;
+    padding-left: 0.3vw;
+    width: 15.5vw;
+    
+}
+
+
+
+@keyframes rolar {
+    0%{
+        transform: translateX(0px);
+    }
+
+    25%{ 
+        transform: translateX(300px) ;
+        
+    }
+    50%{
+        transform: translateX(600px);
+    }
+    75%{
+        transform: translateX(900px);
+    }
+    100%{
+        transform: translateX(1200px);
+        
+        
+    }
+}
+
+@keyframes sumir{
+    0%{
+        transform: translateX(20%);
+    }
+    25%{
+        transform: translateX(40%)  translateY(80%);
+    }
+    50%{
+        transform: translateX(60%) ;
+    }
+    75%{
+        transform: translateX(80%) translateY(-80%);
+    }
+    98%{
+        transform: translateX(100%);
+    }
+}
